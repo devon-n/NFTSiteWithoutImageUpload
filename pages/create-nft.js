@@ -14,7 +14,6 @@ import NFT from './contracts/NFT.json'
 
 export default function CreateItem () {
     const [fileUrl, setFileUrl] = useState(null) // Set state to null
-    const [formInput, updateFormInput] = useState({ name: '', description: '', attribute: ''})
     const router = useRouter()
 
 
